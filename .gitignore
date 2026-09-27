@@ -1,0 +1,12 @@
+# Secrets
+scripts/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Raw and intermediate data -- regeneratable by running scripts/ in order,
+# not worth tracking in git. PNGs and the trained model weights ARE tracked
+# (small, and they're the actual result/evidence of the work).
+data/raw/
+data/processed/*.tif

@@ -1,0 +1,19 @@
+name: burnscan
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - earthengine-api
+  - geemap
+  - numpy
+  - rasterio
+  - geopandas
+  - matplotlib
+  - pandas
+  - requests
+  - jupyterlab
+  - python-dotenv
+  - pytorch
+  - cpuonly
